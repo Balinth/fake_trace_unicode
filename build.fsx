@@ -10,7 +10,9 @@ Target.create "Clean" (fun _ ->
 )
 
 Target.create "Build" (fun _ ->
-  Trace.log " --- Building the app --- "
+  Trace.log " --- Building the app --- "  
+  Trace.trace "｢" // this line outputs ? to the console
+
 )
 
 Target.create "Deploy" (fun _ ->
